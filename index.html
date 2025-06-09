@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diario Digital Vintage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="diary-container">
+        <div class="diary-header">
+            <h1 class="diary-title">Mi Diario Personal</h1>
+            <div class="current-date" id="currentDate"></div>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-button" id="prevWeek">← Semana Anterior</button>
+            <div class="week-display" id="weekDisplay"></div>
+            <button class="nav-button" id="nextWeek">Siguiente Semana →</button>
+        </div>
+
+        <div class="diary-content">
+            <div class="days-container" id="daysContainer"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
